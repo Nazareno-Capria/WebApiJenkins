@@ -13,4 +13,4 @@ RUN dotnet publish -c Release -o out
 FROM base AS final
 WORKDIR /WebApi
 COPY --from=build /src/out .
-ENTRYPOINT ["dotnet", "./WebApiJenki.dll"]
+ENTRYPOINT ["dotnet", "./WebApiJenkins.dll"]
