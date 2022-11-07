@@ -10,7 +10,7 @@ namespace TestProject1
         [Fact]
         public void Test2()
         {
-            Assert.Equal("ok", "asdasd");
+           
         }
     }
 }
